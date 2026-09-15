@@ -1,0 +1,62 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net472</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <AssemblyName>HttpFree</AssemblyName>
+    <RootNamespace>HttpFree</RootNamespace>
+    <AutoGenerateBindingRedirects>false</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="BepInEx">
+      <HintPath>D:\SteamLibrary\steamapps\common\Plasma\BepInEx\core\BepInEx.dll</HintPath>
+    </Reference>
+
+    <Reference Include="0Harmony">
+      <HintPath>D:\SteamLibrary\steamapps\common\Plasma\BepInEx\core\0Harmony.dll</HintPath>
+    </Reference>
+
+    <Reference Include="PlasmaManaged">
+      <HintPath>D:\SteamLibrary\steamapps\common\Plasma\Plasma_Data\Managed\Assembly-CSharp.dll</HintPath>
+    </Reference>
+
+    <Reference Include="PlasmaLibrary">
+      <HintPath>D:\SteamLibrary\steamapps\common\Plasma\Plasma_Data\Managed\PlasmaLibrary.dll</HintPath>
+    </Reference>
+
+    <Reference Include="Rewired_Core">
+      <HintPath>D:\SteamLibrary\steamapps\common\Plasma\Plasma_Data\Managed\Rewired_Core.dll</HintPath>
+    </Reference>
+
+    <Reference Include="UnityEngine">
+      <HintPath>D:\SteamLibrary\steamapps\common\Plasma\Plasma_Data\Managed\UnityEngine.dll</HintPath>
+    </Reference>
+
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>D:\SteamLibrary\steamapps\common\Plasma\Plasma_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+
+    <Reference Include="UnityEngine.UI">
+      <HintPath>D:\SteamLibrary\steamapps\common\Plasma\Plasma_Data\Managed\UnityEngine.UI.dll</HintPath>
+    </Reference>
+
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>D:\SteamLibrary\steamapps\common\Plasma\Plasma_Data\Managed\Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+
+    <Reference Include="Sirenix.Serialization">
+      <HintPath>D:\SteamLibrary\steamapps\common\Plasma\Plasma_Data\Managed\Sirenix.Serialization.dll</HintPath>
+    </Reference>
+
+    <Reference Include="Sirenix.Serialization.Config">
+      <HintPath>D:\SteamLibrary\steamapps\common\Plasma\Plasma_Data\Managed\Sirenix.Serialization.Config.dll</HintPath>
+    </Reference>
+
+    <Reference Include="Sirenix.OdinInspector.Attributes">
+      <HintPath>D:\SteamLibrary\steamapps\common\Plasma\Plasma_Data\Managed\Sirenix.OdinInspector.Attributes.dll</HintPath>
+    </Reference>
+
+  </ItemGroup>
+
+</Project>
